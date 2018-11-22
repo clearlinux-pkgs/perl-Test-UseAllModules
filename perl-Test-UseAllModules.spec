@@ -4,7 +4,7 @@
 #
 Name     : perl-Test-UseAllModules
 Version  : 0.17
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
 Summary  : 'do use_ok() for all the MANIFESTed modules'
@@ -64,7 +64,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Test/UseAllModules.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Test/UseAllModules.pm
 
 %files dev
 %defattr(-,root,root,-)
