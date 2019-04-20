@@ -4,10 +4,10 @@
 #
 Name     : perl-Test-UseAllModules
 Version  : 0.17
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
-Summary  : 'do use_ok() for all the MANIFESTed modules'
+Summary  : do use_ok() for all the MANIFESTed modules
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -22,6 +22,7 @@ To install this module type the following:
 Summary: dev components for the perl-Test-UseAllModules package.
 Group: Development
 Provides: perl-Test-UseAllModules-devel = %{version}-%{release}
+Requires: perl-Test-UseAllModules = %{version}-%{release}
 
 %description dev
 dev components for the perl-Test-UseAllModules package.
