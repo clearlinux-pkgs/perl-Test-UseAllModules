@@ -5,7 +5,7 @@
 #
 Name     : perl-Test-UseAllModules
 Version  : 0.17
-Release  : 31
+Release  : 32
 URL      : https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz
 Summary  : 'do use_ok() for all the MANIFESTed modules'
